@@ -43,7 +43,7 @@ function CSV_PDF() {
 		var checkbox_fields = document.getElementById('checkbox_fields').value;
 	}
 	
-	eel.csv_to_PDF(csv, PDF_template, output_loc, output_filename, colkey, checkbox_fields);
+	eel.csv_to_pdf(csv, PDF_template, output_loc, output_filename, colkey, checkbox_fields);
 }
 
 eel.expose(finished);
@@ -53,7 +53,8 @@ function finished() {
 }
 
 eel.expose(error);
-function error() {
+function error(message) {
 	document.getElementById("Loader").style.display = "none";
+	document.getElementById("error_message").textContent = message;
 	document.getElementById("error").style.display = "inline";
 }

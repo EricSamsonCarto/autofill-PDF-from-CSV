@@ -1,0 +1,4 @@
+pandas>=2.0
+pypdf>=5.0
+Eel>=0.17
+pytest>=8.0
