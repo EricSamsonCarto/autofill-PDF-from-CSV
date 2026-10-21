@@ -5,3 +5,5 @@ venv/
 build/
 dist/
 *.spec
+*.env
+*venv
