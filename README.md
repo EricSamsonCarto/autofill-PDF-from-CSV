@@ -63,11 +63,4 @@ pytest
 * [Pandas](https://pandas.pydata.org/)
 * [Eel](https://github.com/samuelhwilliams/Eel)
 
-<!-- CONTACT -->
-## Contact
-Eric Samson: [@EricSamsonGIS](https://twitter.com/EricSamsonGIS) <br>
-Email: ericsamsonwx@gmail.com <br>
 Website: [EricSamson.com](https://ericsamson.com) <br>
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/iamericsamson
